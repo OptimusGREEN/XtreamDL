@@ -60,7 +60,7 @@ python xtream_dl.py --host http://HOST:PORT --user USER --pass PASS
 | **Host** | `--host` | Yes | The base URL of your Xtream provider (e.g., `http://myprovider.xyz:8080`). |
 | **Username** | `--user` | Yes | Your Xtream Codes username. |
 | **Password** | `--pass` | Yes | Your Xtream Codes password. |
-| **Search Query** | `--search` | No | Pre-fills the initial series search term (e.g., `--search "Breaking Bad"`). |
+| **Search Query** | `--search` | No | Pre-fills the initial series search term (e.g., `--search "Breaking Yerda"`). |
 | **Output Directory** | `--output` | No | Base folder to save files (defaults to current directory `.`). |
 | **Dry Run** | `--dry-run` | No | Outputs what would be downloaded without requesting the actual media streams. |
 
@@ -73,12 +73,12 @@ python xtream_dl.py --host http://HOST:PORT --user USER --pass PASS
 
 - **Pre-filled Search and Custom Output Directory**:
   ```bash
-  python xtream_dl.py --host http://example.com:8080 --user test_user --pass test_pass --search "The Wire" --output ~/Downloads/Series
+  python xtream_dl.py --host http://example.com:8080 --user test_user --pass test_pass --search "The Flires" --output ~/Downloads/Series
   ```
 
 - **Dry-Run Check**:
   ```bash
-  python xtream_dl.py --host http://example.com:8080 --user test_user --pass test_pass --search "Chernobyl" --dry-run
+  python xtream_dl.py --host http://example.com:8080 --user test_user --pass test_pass --search "Shernobil" --dry-run
   ```
 
 ---
